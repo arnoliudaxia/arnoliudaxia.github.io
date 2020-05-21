@@ -1,1 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>pip on 17岁のArnoLiu De Blog</title><link>https://blog.arnopi.top/tags/pip/</link><description>Recent content in pip on 17岁のArnoLiu De Blog</description><generator>Hugo -- gohugo.io</generator><language>zh</language><copyright>Arnoliu, all rights reserved.</copyright><lastBuildDate>Fri, 27 Dec 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.arnopi.top/tags/pip/index.xml" rel="self" type="application/rss+xml"/><item><title>pip国内源集合</title><link>https://blog.arnopi.top/2019/12/pip%E5%9B%BD%E5%86%85%E6%BA%90%E9%9B%86%E5%90%88/</link><pubDate>Fri, 27 Dec 2019 00:00:00 +0000</pubDate><guid>https://blog.arnopi.top/2019/12/pip%E5%9B%BD%E5%86%85%E6%BA%90%E9%9B%86%E5%90%88/</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>pip on 17岁のArnoLiu De Blog</title><link>https://blog.arnopi.top/tags/pip/</link><description>Recent content in pip on 17岁のArnoLiu De Blog</description><generator>Hugo -- gohugo.io</generator><language>zh</language><copyright>Arnoliu, all rights reserved.</copyright><lastBuildDate>Fri, 27 Dec 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.arnopi.top/tags/pip/index.xml" rel="self" type="application/rss+xml"/><item><title>pip国内源集合</title><link>https://blog.arnopi.top/2019/12/pip%E5%9B%BD%E5%86%85%E6%BA%90%E9%9B%86%E5%90%88/</link><pubDate>Fri, 27 Dec 2019 00:00:00 +0000</pubDate><guid>https://blog.arnopi.top/2019/12/pip%E5%9B%BD%E5%86%85%E6%BA%90%E9%9B%86%E5%90%88/</guid><description>阿里云&amp;nbsp;http://mirrors.aliyun.com/pypi/simple/&amp;nbsp;
+&amp;emsp;&amp;emsp;中国科技大学&amp;nbsp;https://pypi.mirrors.ustc.edu.cn/simple/&amp;nbsp;
+&amp;emsp;&amp;emsp;豆瓣(douban)&amp;nbsp;http://pypi.douban.com/simple/&amp;nbsp;
+&amp;emsp;&amp;emsp;清华大学&amp;nbsp;https://pypi.tuna.tsinghua.edu.cn/simple/&amp;nbsp;
+&amp;emsp;&amp;emsp;中国科学技术大学&amp;nbsp;http://pypi.mirrors.ustc.edu.cn/simple/
+&amp;nbsp;
+修改源方法：
+临时使用：&amp;nbsp;
+可以在使用pip的时候在后面加上-i参数，指定pip源&amp;nbsp;
+例如: pip install scrapy -i&amp;nbsp;https://pypi.tuna.tsinghua.edu.cn/simple
+永久修改：&amp;nbsp;
+linux:&amp;nbsp;
+修改 ~/.pip/pip.conf (没有就创建一个)， 内容如下：
+[global] index-url = https://pypi.tuna.tsinghua.edu.cn/simple windows:&amp;nbsp;
+直接在user目录中创建一个pip目录，如：C:\Users\xx\pip，新建文件pip.ini，内容如下
+[global] index-url = https://pypi.tuna.tsinghua.edu.cn/simple 若要装具体版本，则在包名tensorflow后加上 == 版本号&amp;nbsp; &amp;nbsp;例如：
+1 conda install tensorflow==1.9.0 &amp;nbsp;
+ps:插一句，当你在找其他的一些conda源、pip源、国内镜像源都没有的包的时候，你可以在pypi.org上下载到你所需要的包，然后本地安装 :
+pip install 本地路径名.压缩格式</description></item></channel></rss>
