@@ -1,20 +1,14 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on 17岁のArnoLiu De Blog</title><link>https://blog.arnopi.top/post/</link><description>Recent content in Posts on 17岁のArnoLiu De Blog</description><generator>Hugo -- gohugo.io</generator><language>zh</language><copyright>Arnoliu, all rights reserved.</copyright><lastBuildDate>Sun, 09 Feb 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.arnopi.top/post/index.xml" rel="self" type="application/rss+xml"/><item><title>Xamarin</title><link>https://blog.arnopi.top/2020/02/xamarin/</link><pubDate>Sun, 09 Feb 2020 00:00:00 +0000</pubDate><guid>https://blog.arnopi.top/2020/02/xamarin/</guid><description>Microsoft Learn https://docs.microsoft.com/zh-cn/learn/paths/build-mobile-apps-with-xamarin-forms/ 官方快速入门 https://docs.microsoft.com/zh-cn/xamarin/get-started/quickstarts/ 官方文档（Xamarin.Forms） https://docs.microsoft.com/zh-cn/xamarin/xamarin-forms/index 官方文档（Xamarin） https://docs.microsoft.com/zh-cn/xamarin/</description></item><item><title>FirstExpansionHub</title><link>https://blog.arnopi.top/2020/01/firstexpansionhub/</link><pubDate>Thu, 16 Jan 2020 00:00:00 +0000</pubDate><guid>https://blog.arnopi.top/2020/01/firstexpansionhub/</guid><description>使用两个Hub
-2020年1月16日
-22:25
-&amp;nbsp;
-&amp;nbsp;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on 17岁のArnoLiu De Blog</title><link>https://blog.arnopi.top/post/</link><description>Recent content in Posts on 17岁のArnoLiu De Blog</description><generator>Hugo -- gohugo.io</generator><language>zh</language><copyright>Arnoliu, all rights reserved.</copyright><lastBuildDate>Sun, 09 Feb 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.arnopi.top/post/index.xml" rel="self" type="application/rss+xml"/><item><title>Xamarin</title><link>https://blog.arnopi.top/2020/02/xamarin/</link><pubDate>Sun, 09 Feb 2020 00:00:00 +0000</pubDate><guid>https://blog.arnopi.top/2020/02/xamarin/</guid><description>Microsoft Learn https://docs.microsoft.com/zh-cn/learn/paths/build-mobile-apps-with-xamarin-forms/ 官方快速入门 https://docs.microsoft.com/zh-cn/xamarin/get-started/quickstarts/ 官方文档（Xamarin.Forms） https://docs.microsoft.com/zh-cn/xamarin/xamarin-forms/index 官方文档（Xamarin） https://docs.microsoft.com/zh-cn/xamarin/</description></item><item><title>FirstExpansionHub</title><link>https://blog.arnopi.top/2020/01/firstexpansionhub/</link><pubDate>Thu, 16 Jan 2020 00:00:00 +0000</pubDate><guid>https://blog.arnopi.top/2020/01/firstexpansionhub/</guid><description>目的：扩展单hub IO口的局限性。 注意：一个机器人最多只能有两个hub。
 设备需求：
-设备
-图片
-两台手机
-&amp;nbsp;
-micro数据线
-&amp;nbsp;
+两台手机 micro数据线
 OTG
-&amp;nbsp;
-REV Robotics Switch, Cable, and Bracket (REV-31-1387). &amp;nbsp;
-REV Robotics Tamiya to XT30 Adapter Cable (REV-31-1382). &amp;nbsp;
-12V电源</description></item><item><title>随意修改网页js代码</title><link>https://blog.arnopi.top/2019/12/%E9%9A%8F%E6%84%8F%E4%BF%AE%E6%94%B9%E7%BD%91%E9%A1%B5js%E4%BB%A3%E7%A0%81/</link><pubDate>Sat, 28 Dec 2019 00:00:00 +0000</pubDate><guid>https://blog.arnopi.top/2019/12/%E9%9A%8F%E6%84%8F%E4%BF%AE%E6%94%B9%E7%BD%91%E9%A1%B5js%E4%BB%A3%E7%A0%81/</guid><description>document.body.contentEditable=&amp;quot;true&amp;rdquo;; document.designMode=&amp;quot;on&amp;rdquo;;</description></item><item><title>pip国内源集合</title><link>https://blog.arnopi.top/2019/12/pip%E5%9B%BD%E5%86%85%E6%BA%90%E9%9B%86%E5%90%88/</link><pubDate>Fri, 27 Dec 2019 00:00:00 +0000</pubDate><guid>https://blog.arnopi.top/2019/12/pip%E5%9B%BD%E5%86%85%E6%BA%90%E9%9B%86%E5%90%88/</guid><description>阿里云&amp;nbsp;http://mirrors.aliyun.com/pypi/simple/&amp;nbsp;
+REV Robotics Switch, Cable, and Bracket (REV-31-1387).
+REV Robotics Tamiya to XT30 Adapter Cable (REV-31-1382).
+12V电源
+两个HUB
+3-Pin JST PH Cable
+REV Robotics XT30 Extension Cable
+具体步骤： 1. 检查hub Address 原因：所有hub出厂都会有默认地址2，必须改变一个的地址来避免冲突 2. 改变hub Address（注意此时不要连接两个hub） 步骤：RC Advanced setting -》删除原配置文件-》创建新临时配置文件并保存 成功标志：HUB LED闪烁为：GREEN (long) -- BLUE (short) -- BLUE (short) 3. 连接2个hub a. 断电 b. 用XT30扩展电源线并电</description></item><item><title>随意修改网页js代码</title><link>https://blog.arnopi.top/2019/12/%E9%9A%8F%E6%84%8F%E4%BF%AE%E6%94%B9%E7%BD%91%E9%A1%B5js%E4%BB%A3%E7%A0%81/</link><pubDate>Sat, 28 Dec 2019 00:00:00 +0000</pubDate><guid>https://blog.arnopi.top/2019/12/%E9%9A%8F%E6%84%8F%E4%BF%AE%E6%94%B9%E7%BD%91%E9%A1%B5js%E4%BB%A3%E7%A0%81/</guid><description>document.body.contentEditable=&amp;quot;true&amp;rdquo;; document.designMode=&amp;quot;on&amp;rdquo;;</description></item><item><title>pip国内源集合</title><link>https://blog.arnopi.top/2019/12/pip%E5%9B%BD%E5%86%85%E6%BA%90%E9%9B%86%E5%90%88/</link><pubDate>Fri, 27 Dec 2019 00:00:00 +0000</pubDate><guid>https://blog.arnopi.top/2019/12/pip%E5%9B%BD%E5%86%85%E6%BA%90%E9%9B%86%E5%90%88/</guid><description>阿里云&amp;nbsp;http://mirrors.aliyun.com/pypi/simple/&amp;nbsp;
 &amp;emsp;&amp;emsp;中国科技大学&amp;nbsp;https://pypi.mirrors.ustc.edu.cn/simple/&amp;nbsp;
 &amp;emsp;&amp;emsp;豆瓣(douban)&amp;nbsp;http://pypi.douban.com/simple/&amp;nbsp;
 &amp;emsp;&amp;emsp;清华大学&amp;nbsp;https://pypi.tuna.tsinghua.edu.cn/simple/&amp;nbsp;
