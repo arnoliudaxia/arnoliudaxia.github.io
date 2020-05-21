@@ -9,6 +9,5 @@ tags : [
 ]
 ---
 
-document.body.contentEditable="true"
-
-document.designMode="on"
+document.body.contentEditable="true";
+document.designMode="on";
