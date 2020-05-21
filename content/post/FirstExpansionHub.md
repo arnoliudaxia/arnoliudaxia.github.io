@@ -39,7 +39,7 @@ REV Robotics XT30 Extension Cable
 		3. 连接2个hub
 			a. 断电
 			b. 用XT30扩展电源线并电
-c. <img src="https://github.com/arnoliudaxia/arnoliudaxia.github.io/blob/blog/content/img/exc1.png?raw=true"/>
+c. ![](https://github.com/arnoliudaxia/arnoliudaxia.github.io/blob/blog/content/img/exc1.png?raw=true)
 
 	d. 用3针线连接2个hub上的RS-485接口
 	f. 上电连接RC，创建新配置文件
