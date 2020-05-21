@@ -57,5 +57,4 @@ series = "series"
   [markup.goldmark]    
 
     [markup.goldmark.renderer]     
-
       unsafe = true
