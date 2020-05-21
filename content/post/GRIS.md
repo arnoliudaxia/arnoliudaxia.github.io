@@ -1,7 +1,7 @@
 ---
 author : "小黄豆"
 title : "GRIS——完美继承了独立游戏的所有优点与缺点"
-date : "2020-05-09"
+date : "2020-02-09"
 description : ""
 tags : [
     "游戏",
