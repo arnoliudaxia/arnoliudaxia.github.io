@@ -1,4 +1,5 @@
-<!doctype html><html lang=zh><head><meta charset=utf-8><meta http-equiv=x-ua-compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><title>FirstExpansionHub - 17岁のArnoLiu De Blog</title><meta name=description content="目的：扩展单hub IO口的局限性。 注意：一个机器人最多只能有两个hub。
+<!doctype html><html lang=zh><head><meta charset=utf-8><meta http-equiv=x-ua-compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><title>FirstExpansionHub - 17岁のArnoLiu De Blog</title><meta name=description content="目的：扩展单hub IO口的局限性。
+注意：一个机器人最多只能有两个hub。
 设备需求：
  两台手机	micro数据线
 OTG
@@ -8,22 +9,21 @@ REV Robotics Tamiya to XT30 Adapter Cable (REV-31-1382).
 两个HUB
 3-Pin JST PH Cable
 REV Robotics XT30 Extension Cable
- 具体步骤： 1. 检查hub Address 原因：所有hub出厂都会有默认地址2，必须改变一个的地址来避免冲突 2. 改变hub Address（注意此时不要连接两个hub） 步骤：RC Advanced setting -》删除原配置文件-》创建新临时配置文件并保存 成功标志：HUB LED闪烁为：GREEN (long) -- BLUE (short) -- BLUE (short) 3. 连接2个hub a. 断电 b. 用XT30扩展电源线并电 c. d. 用3针线连接2个hub上的RS-485接口 e. f. 上电连接RC，创建新配置文件"><meta name=author content="ArnoLiu"><link href=https://blog.arnopi.top/an-old-hope.min.css rel=stylesheet><link href=https://blog.arnopi.top/style.css rel=stylesheet><link rel=apple-touch-icon href=https://blog.arnopi.top/apple-touch-icon.png><link rel=icon href=https://blog.arnopi.top/favicon.ico><meta name=generator content="Hugo 0.71.0"><link rel=alternate type=application/atom+xml href=https://blog.arnopi.top/index.xml title="17岁のArnoLiu De Blog"><script>function setTheme(){const time=new Date();const prev=localStorage.getItem('date');const date=String(time.getMonth()+1)+'.'+String(time.getDate());const now=time.getTime();let sunrise;let sunset;function setBodyClass(){if(now>sunrise&&now<sunset)return;document.body.classList.add('dark');}
-if(date!==prev){fetch('https://api.ipgeolocation.io/astronomy?apiKey=5ed37d85103e4defa5df4c5298ed5215').then(res=>res.json()).then(data=>{sunrise=data.sunrise.split(':').map(Number);sunset=data.sunset.split(':').map(Number);}).catch(()=>{sunrise=[7,0];sunset=[19,0];}).finally(()=>{sunrise=time.setHours(sunrise[0],sunrise[1],0);sunset=time.setHours(sunset[0],sunset[1],0);setBodyClass();localStorage.setItem('sunrise',sunrise);localStorage.setItem('sunset',sunset);});localStorage.setItem('date',date);}else{sunrise=Number(localStorage.getItem('sunrise'));sunset=Number(localStorage.getItem('sunset'));setBodyClass();}}</script></head><body class=single><script>setTheme();</script><header class=header><nav class=nav><p class=logo><a href=https://blog.arnopi.top/>17岁のArnoLiu De Blog</a></p><ul class=menu><li><a href=/about/></a></li></ul></nav></header><main class=main><article class=post-single><header class=post-header><h1 class=post-title>FirstExpansionHub</h1><div class=post-meta>ArnoLiu · January 16, 2020</div></header><div class=post-content><p>目的：扩展单hub IO口的局限性。<br>注意：一个机器人最多只能有两个hub。</p><p>设备需求：</p><blockquote>两台手机<p>micro数据线</p><p>OTG</p><p>REV Robotics Switch, Cable, and Bracket (REV-31-1387).</p><p>REV Robotics Tamiya to XT30 Adapter Cable (REV-31-1382).</p><p>12V电源</p><p>两个HUB</p><p>3-Pin JST PH Cable</p><p>REV Robotics XT30 Extension Cable</p></blockquote><pre class=content>
-具体步骤：
-	1. 检查hub Address
-	原因：所有hub出厂都会有默认地址2，必须改变一个的地址来避免冲突
-	2. 改变hub Address（注意此时不要连接两个hub）
-	步骤：RC Advanced setting -》删除原配置文件-》创建新临时配置文件并保存
-	成功标志：HUB LED闪烁为：GREEN (long) --> BLUE (short) --> BLUE (short) 
-	3. 连接2个hub
-		a. 断电
-		b. 用XT30扩展电源线并电
-		c. <img src="https://github.com/arnoliudaxia/arnoliudaxia.github.io/blob/blog/content/img/exc1.png?raw=true">
-		d. 用3针线连接2个hub上的RS-485接口
-		e. 
-		f. 上电连接RC，创建新配置文件
-<p></pre></p></div></article></main><footer class=footer><span>&copy; 2020 <a href=https://blog.arnopi.top/>17岁のArnoLiu De Blog</a></span>
+ 具体步骤： 1. 检查hub Address 原因：所有hub出厂都会有默认地址2，必须改变一个的地址来避免冲突 2. 改变hub Address（注意此时不要连接两个hub） 步骤：RC Advanced setting -》删除原配置文件-》创建新临时配置文件并保存 成功标志：HUB LED闪烁为：GREEN (long) --> BLUE (short) --> BLUE (short) 3. 连接2个hub a. 断电 b. 用XT30扩展电源线并电 c. <img src=&#34;https://github.com/arnoliudaxia/arnoliudaxia.github.io/blob/blog/content/img/exc1.png?raw=true&#34;/> d. 用3针线连接2个hub上的RS-485接口 e. f. 上电连接RC，创建新配置文件"><meta name=author content="ArnoLiu"><link href=https://blog.arnopi.top/an-old-hope.min.css rel=stylesheet><link href=https://blog.arnopi.top/style.css rel=stylesheet><link rel=apple-touch-icon href=https://blog.arnopi.top/apple-touch-icon.png><link rel=icon href=https://blog.arnopi.top/favicon.ico><meta name=generator content="Hugo 0.71.0"><link rel=alternate type=application/atom+xml href=https://blog.arnopi.top/index.xml title="17岁のArnoLiu De Blog"><script>function setTheme(){const time=new Date();const prev=localStorage.getItem('date');const date=String(time.getMonth()+1)+'.'+String(time.getDate());const now=time.getTime();let sunrise;let sunset;function setBodyClass(){if(now>sunrise&&now<sunset)return;document.body.classList.add('dark');}
+if(date!==prev){fetch('https://api.ipgeolocation.io/astronomy?apiKey=5ed37d85103e4defa5df4c5298ed5215').then(res=>res.json()).then(data=>{sunrise=data.sunrise.split(':').map(Number);sunset=data.sunset.split(':').map(Number);}).catch(()=>{sunrise=[7,0];sunset=[19,0];}).finally(()=>{sunrise=time.setHours(sunrise[0],sunrise[1],0);sunset=time.setHours(sunset[0],sunset[1],0);setBodyClass();localStorage.setItem('sunrise',sunrise);localStorage.setItem('sunset',sunset);});localStorage.setItem('date',date);}else{sunrise=Number(localStorage.getItem('sunrise'));sunset=Number(localStorage.getItem('sunset'));setBodyClass();}}</script></head><body class=single><script>setTheme();</script><header class=header><nav class=nav><p class=logo><a href=https://blog.arnopi.top/>17岁のArnoLiu De Blog</a></p><ul class=menu><li><a href=/about/></a></li></ul></nav></header><main class=main><article class=post-single><header class=post-header><h1 class=post-title>FirstExpansionHub</h1><div class=post-meta>ArnoLiu · January 16, 2020</div></header><div class=post-content><p>目的：扩展单hub IO口的局限性。</p><p>注意：一个机器人最多只能有两个hub。</p><p>设备需求：</p><blockquote>两台手机<p>micro数据线</p><p>OTG</p><p>REV Robotics Switch, Cable, and Bracket (REV-31-1387).</p><p>REV Robotics Tamiya to XT30 Adapter Cable (REV-31-1382).</p><p>12V电源</p><p>两个HUB</p><p>3-Pin JST PH Cable</p><p>REV Robotics XT30 Extension Cable</p></blockquote><pre><code>具体步骤：
+    1. 检查hub Address
+    原因：所有hub出厂都会有默认地址2，必须改变一个的地址来避免冲突
+    2. 改变hub Address（注意此时不要连接两个hub）
+    步骤：RC Advanced setting -》删除原配置文件-》创建新临时配置文件并保存
+    成功标志：HUB LED闪烁为：GREEN (long) --&gt; BLUE (short) --&gt; BLUE (short) 
+    3. 连接2个hub
+        a. 断电
+        b. 用XT30扩展电源线并电
+        c. &lt;img src=&quot;https://github.com/arnoliudaxia/arnoliudaxia.github.io/blob/blog/content/img/exc1.png?raw=true&quot;/&gt;
+        d. 用3针线连接2个hub上的RS-485接口
+        e. 
+        f. 上电连接RC，创建新配置文件
+</code></pre></div></article></main><footer class=footer><span>&copy; 2020 <a href=https://blog.arnopi.top/>17岁のArnoLiu De Blog</a></span>
 <span>&#183;</span>
 <span>Powered by <a href=https://gohugo.io/ rel=noopener target=_blank>Hugo️️</a>️</span>
 <span>&#183;</span>
