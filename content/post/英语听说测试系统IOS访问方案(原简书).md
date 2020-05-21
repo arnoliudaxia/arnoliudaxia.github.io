@@ -9,6 +9,7 @@ tags : [
 ]
 ---
 
+原地址（格式完整）<a>https://www.jianshu.com/p/dd7297d375b0</a>
 <article class="_2rhmJa"><h1>先决条件：</h1><p>IOS系统版本&gt;=11（可能IOS10也行）</p><p>Ipad&nbsp;or&nbsp;iPhone&nbsp;皆可</p><p>仅可以使用系统自带Safari浏览器</p><h1>具体步骤</h1><h2>1.下载“快捷指令”浏览器脚本</h2><p>链接: <a href="https://pan.baidu.com/s/1ldMkFx1N0bIaNPH4cD6sPw" target="_blank">https://pan.baidu.com/s/1ldMkFx1N0bIaNPH4cD6sPw</a> 提取码: 2020</p><h2>2.安装脚本</h2><p><br></p><div class="image-package">
 <div class="image-container" style="max-width: 700px; max-height: 934px; background-color: transparent;">
 <div class="image-container-fill" style="padding-bottom: 133.32999999999998%;"></div>
